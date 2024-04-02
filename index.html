@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devanshu Gajjar Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo2.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Dev1.jpg" alt="Devanshu Gajjar" width="80" style="border-radius:20px">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Devanshu Gajjar">Devanshu Gajjar</h1>
+
+          <p class="title">Master's Student <p>
+          <p class="title">  Electrical Engineering (VLSI)</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:devanshugajjar@gmail.com" class="contact-link">devanshugajjar@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+1(408)590-7049" class="contact-link">+1(408)590-7049</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1998-02-16">February 16, 1998</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>San Jose, California, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/DevanshuGajjar" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/devanshugajjar/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/devanshu_gajjar" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/devanshu3110/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            
+            Driven by the complexity and elegance of VLSI design, I'm pursuing my Master's at San Jose State University. 
+            My prior experience as an Embedded Engineer and Post Silicon Validation Engineer honed my skills in embedded systems development and validation and ignited my desire to delve deeper into VLSI field. 
+            I'm a quick learner and a motivated team player, seeking opportunities to contribute to cutting-edge VLSI projects.
+          </p>
+
+          <p>
+            The value that I can bring to the Team is by developing Application for Embedded Systems and providing solution for verification 
+            and validation of different IP's and SoC's that involves knowledge of different Microcontroller Architcture as well as knowledge 
+            in VLSI, Digital System Design and UVM. Focused towards the developing concise skills for ensuring high quality silicon. 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/emb1.png" alt="Embedded System Icon" width="80">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Embedded Systems</h4>
+
+                <p class="service-item-text">
+                  Worked at a professional-level on technologies such as STM, Laird and Microcontroller's such as ARM.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/post_silicon_validation.webp" alt="Post Silicon Validation Icon" width="80">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Post Silicon Validation</h4>
+
+                <p class="service-item-text">
+                  Contributed to Post Silcon Validation for SoC before Tap Out on different IP's.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/fpga.png" alt="FPGA icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">FPGA</h4>
+
+                <p class="service-item-text">
+                  Worked in International competitions and also in a Graduate Researcher position.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/iot40.jpg" alt="IoT-4.0 icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IoT-4.0</h4>
+
+                <p class="service-item-text">
+                  Implemented IOT 4.0 at an Industrial Level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Experience</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <!-- <a href="https://www.sjsu.edu/researchfoundation/"> -->
+                <img src="./assets/images/einfochips.png" alt="client logo">
+              <!-- </a> -->
+            </li>
+
+            <li class="clients-item">
+              <!-- <a href="https://www.linkedin.com/in/starlit-electronics-b24456b6/"> -->
+                <img src="./assets/images/microsoft.png" alt="client logo">
+              <!-- </a> -->
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">
+            <div style="display:flex">Resume 
+              <a target="_blank" href="assets/Devanshu_Gajjar_Resume.pdf" style="margin: 6px 0 0 10px;">
+                <img src="./assets/images/pdf.svg" alt="client logo" width="30">
+              </a>
+            </div>
+        </h2>
+        </header>
+
+        <section class="timeline">
+          
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">San Jose State University</h4>
+
+              <span>Jan 2024 — Dec 2025</span>
+
+              <p class="timeline-text">
+                Motivated and dedicated graduate student pursuing a Master of Science in Electrical Engineering with a keen interest in Digital System Design, Verifiaction and Post Silicon Validation for the various state of the art technologies.Committed to continuous learning and innovation, I am eager to leverage my education and expertise to tackle real-world engineering problems and make meaningful contributions to the advancement of technology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Nirma University</h4>
+
+              <span>June 2017 — May 2021</span>
+
+              <p class="timeline-text">
+                B.Tech graduate with a specialization in Electronics and Communication Engineering. Equipped with a comprehensive understanding of electronic systems, communication technologies, and signal processing techniques.
+                Proficient in designing, analyzing, and troubleshooting complex electronic circuits and communication networks.
+                With focus on Embedded C, C++ and Python.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Embedded Engineer</h4>
+              <h2 class="h4 timeline-item-title">einfochips</h2>
+
+              <span>August 2021 — December 2023</span>
+
+              <p class="timeline-text">
+                - Developed an embedded application and firmware tailored specifically for a sophisticated battery management system seamlessly integrated within a 
+                comprehensive security infrastructure. Leveraging the power and versatility of ARM Cortex M4 and A7 processors.<br>
+                - Undertook the task of programming and meticulously verifying various communication protocols including I2C, 
+                SPI, and UART on the STM32L475 Discovery Board, which is powered by the ARM Cortex M4 processor. <br>
+                - Furthermore, I undertook the task of implementing a finite state machine (FSM) specifically tailored for Serial Peripheral Interface (SPI) communication. This involved developing a detailed simulation model using SystemC, a high-level modeling language widely used for system-level design.
+                 The FSM design was meticulously crafted to emulate the behavior of individual blocks within the SPI protocol, ensuring accurate representation of the communication process<br>
+                - Embarked on the development of a specialized application tailored for the FTDI FT2322H, a USB 2.0 to JTAG converter, by leveraging the PyFTDI module within the Python programming environment. 
+                This involved a comprehensive design and implementation process aimed at harnessing the functionalities offered by the FT2322H device for JTAG communication. <br>
+                - Effectively executed the integration of the Joint Test Action Group (JTAG) protocol utilizing the RPI Pico microcontroller board. This strategic implementation initiative yielded 
+                significant cost reductions of up to 50% for our clientele, all while preserving the identical functionality provided by conventional solutions. <br>
+                - Developed an advanced embedded application tailored for facilitating communication and debugging operations via the Serial Wire JTAG (SWJ) interface, enriching the functionality of the ARM SoC 600. 
+                This specialized software solution was meticulously engineered to enhance the efficiency and versatility of serial wire debugging processes, offering a diverse array of functionalities to meet various debugging requirements. <br>
+                - Engaged in the comprehensive development of embedded applications and drivers specifically tailored for the Renesas RX65n microcontroller platform, showcasing proficiency in embedded systems design and development. This involved the meticulous creation of software solutions optimized for the RX65n microcontroller architecture, leveraging its advanced features and capabilities to meet the demands of diverse applications.<br>
+                - Additionally, spearheaded the seamless migration of existing applications and drivers from the Renesas RX231 platform to the RX65n, demonstrating adeptness in porting techniques and ensuring compatibility 
+                with the new microcontroller environment. This transition process encompassed the meticulous adaptation and optimization of codebases, configuration settings, and peripheral interactions to seamlessly integrate with the RX65n platform while preserving functionality and performance.<br>
+
+              </p>
+              
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Project Intern</h4>
+              <h2 class="h4 timeline-item-title">@ Dynemix India Pvt Ltd</h2>
+              <span>Jan 2021 - May 2021</span>
+
+              <p class="timeline-text">
+                - During the internship, I undertook a pivotal project aimed at streamlining a key facet of the company's wastewater management system through automation, aligning with the principles of Industry 4.0. This initiative involved the integration of Programmable Logic Controller (PLC) and Internet of Things (IoT) technologies to orchestrate a sophisticated automation framework.<br>
+                - The developed automation system was meticulously engineered to leverage a network of sensors strategically deployed throughout the wastewater infrastructure. These sensors were tasked with the precise collection of pertinent data points essential for monitoring various parameters crucial to the wastewater treatment process.<br>
+                - To facilitate seamless communication and data exchange, the system utilized the RS485 communication protocol, ensuring reliable and efficient transmission of data between the sensors, PLC, and other components of the infrastructure. Additionally, the incorporation of cloud computing capabilities enabled the aggregation, analysis, and storage of the collected data in a centralized cloud-based repository.<br>
+                - The successful implementation of the automation system yielded tangible benefits, including a notable 25% reduction in pollutants present in the wastewater. This marked improvement not only underscored the efficacy of the automation solution but also translated into significant environmental and operational advantages for the company, positioning it for enhanced sustainability and efficiency in its wastewater management endeavors.<br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Embedded C | C++</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Verilog | System Verilog | UVM</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <!-- <div class="title-wrapper">
+                <h5 class="h5">Kuberflow</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div> -->
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">System C</h5>
+                  <data value="75">75%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%;"></div>
+                </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Artificial Intelligence</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Application</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul> -->
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <!-- <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Artificial Intelligence</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul> -->
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="">
+              <a target="_blank" href= "https://github.com/DevanshuGajjar/Jtag_Pico.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="Jtag_Pio"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/jtag_pio.jpeg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Jtag Using RPI Pico</h3>
+
+                <p class="project-category">Embedded Systems</p>
+
+              </a>
+            </li>
+
+            
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.459136426094!2d-121.9078340243721!3d37.33163747210037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb58d58e0cd3%3A0x61bbcbce262f82ae!2sAvalon%20at%20Cahill%20Park!5e0!3m2!1sen!2sus!4v1706314824468!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formcarry.com/s/goq1MpP7c-" method="POST" accept-charset="UTF-8" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
